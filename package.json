@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "generate": "npx prisma generate",
-    "pull": "npx prisma db pull",
+    "prisma:generate": "npx prisma generate",
+    "prisma:pull": "npx prisma db pull",
     "prisma:push": "npx prisma db push"
   },
   "keywords": [
